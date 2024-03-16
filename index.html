@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="header">
+         <div class="menu">
+            <nav>
+                <img src="images/Bijay..svg" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Web Developer</p> -->
+                <h1> Hi, I'm <span>Bijay</span></h1>
+            </div>
+         </div>
+    </div>
+<!-- About sections-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/User.jpg" alt="picture">
+            </div>
+        <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>Skilled in HTML, CSS and JavaScript. 
+               Passionate about creating dynamic and engaging web experiences. 
+               Constantly expanding knowledge to build innovative and user-friendly interfaces. 
+               Personal development is very important to me and I'm constantly improving my skills and knowledge to get the best results. 
+               Self-driven frontend developer eager to learn and expand skills in HTML, CSS, JavaScript, and React.</p>
+
+        <div class="tab-title">
+                <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+        <div class="tab-contents active-tab" id="skills">
+                <ul>
+                     <li><span>Web Development</span>
+                        <br>HTML <br>
+                        CSS <br> Bootstrap 
+                        <br>Figma<br>
+                        Java Script</li>
+                </ul>
+            </div>
+        <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Brodway Infosys</span>
+                        <br>Web Design <br>
+                         C and C++ </li>
+                </ul>
+            </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                 <li><span>School</span><br>School Level Education</li>
+                <li><span>College</span><br>+2 Level Education</li>
+            <li><span>Bachelor</span><br>Bachelor Level Education</li>
+        </ul>
+     </div>
+    </div>
+        </div>                 
+  </div>
+</div>
+<!-- Serivces--------------------------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>HTML</h2>
+                <p>Proficient in HTML with a strong foundation 
+                 in creating well-structured and responsive web pages.
+                </p>
+                  <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-css3"></i>
+                <h2>CSS</h2>
+                <p>Strong expertise in Cascading Style Sheets (CSS)
+                     for creating visually appealing and responsive web designs.  
+                     Proficient in CSS3 and skilled in implementing modern styling techniques.
+                </p>
+                  <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>Java Script</h2>
+                <p>Strong command of JavaScript for developing dynamic and interactive web applications.
+                     Proficient in ES6 and knowledgeable about modern JavaScript frameworks and libraries.
+                </p>
+                  <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio------------------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Travel.png" alt="">
+                <div class="layer">
+                    <h3>Travel Website</h3>
+                    <p> Browse your next Travel</p>
+                    <a href="https://bijay2024.github.io/Project/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/NGO.png" alt="">
+                <div class="layer">
+                    <h3>NGO Website</h3>
+                    <p>Replica Website of Oxfam</p>
+                    <a href="https://bijay2024.github.io/NGO/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/corporate.png" alt="">
+                <div class="layer">
+                    <h3>Corporate Website</h3>
+                    <p>Replica Webiste of Innersloth gaming company</p>
+                    <a href=" https://bijay2024.github.io/Corporate/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------Contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bijaylama0076@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+977 - 9818821947 </p>
+                <!-- <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div> -->
+                <a href="CV.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Bijay. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+     for(tablink of tablinks){
+        tablink.classList.remove("active-links")
+     }
+     for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+     }
+     event.currentTarget.classList.add("active-links")
+     document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+<script src="js.js"></script>
+</body>
+</html>
